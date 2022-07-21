@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Alamofire
+import Kanna
 
 class ViewController: UIViewController {
 
@@ -14,6 +16,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    func scraping() {
+        
+        AF.request("https://www.yoshinoya.com/menu/gyudon/gyu-don/").responseString { response in
+            switch response.result {
+            case let .success(value):
+                break
+            case let .failure(error):
+                   print(error)
+            }
+        }
+    }
 
 }
 
