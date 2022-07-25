@@ -13,6 +13,7 @@
 		3B56D55C28880F7E006C703D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B56D55A28880F7E006C703D /* Main.storyboard */; };
 		3B56D55E28880F80006C703D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B56D55D28880F80006C703D /* Assets.xcassets */; };
 		3B56D56128880F80006C703D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B56D55F28880F80006C703D /* LaunchScreen.storyboard */; };
+		3B56D569288EE01E006C703D /* GyudonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B56D568288EE01E006C703D /* GyudonModel.swift */; };
 		C0E9A78C5CEDDF7A37C1F47F /* Pods_scraping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDA08B7DB7C92CC68FA9837 /* Pods_scraping.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		3B56D55D28880F80006C703D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B56D56028880F80006C703D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B56D56228880F80006C703D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B56D568288EE01E006C703D /* GyudonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyudonModel.swift; sourceTree = "<group>"; };
 		EC492E41CF3939A848076520 /* Pods-scraping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scraping.release.xcconfig"; path = "Target Support Files/Pods-scraping/Pods-scraping.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				3B56D55D28880F80006C703D /* Assets.xcassets */,
 				3B56D55F28880F80006C703D /* LaunchScreen.storyboard */,
 				3B56D56228880F80006C703D /* Info.plist */,
+				3B56D568288EE01E006C703D /* GyudonModel.swift */,
 			);
 			path = scraping;
 			sourceTree = "<group>";
@@ -88,7 +91,6 @@
 				350B56965FFF8C1D03AF350E /* Pods-scraping.debug.xcconfig */,
 				EC492E41CF3939A848076520 /* Pods-scraping.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -210,6 +212,7 @@
 				3B56D55928880F7E006C703D /* ViewController.swift in Sources */,
 				3B56D55528880F7E006C703D /* AppDelegate.swift in Sources */,
 				3B56D55728880F7E006C703D /* SceneDelegate.swift in Sources */,
+				3B56D569288EE01E006C703D /* GyudonModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
